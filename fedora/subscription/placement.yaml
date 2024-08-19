@@ -7,3 +7,11 @@ spec:
   clusterSets:
     - default
   numberOfClusters: 1
+  predicates:
+  - requiredClusterSelector:
+      labelSelector:
+        matchExpressions:
+        - key: name
+          operator: In
+          values:
+          - dr1
