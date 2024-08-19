@@ -1,0 +1,10 @@
+---
+resources:
+  - namespace.yaml
+  - binding.yaml
+  - placement.yaml
+  - subscription.yaml
+namespace: fedora
+labels:
+  - pairs:
+      app: fedora
