@@ -8,3 +8,4 @@ spec:
     registry:
       # Replace with URL of a Windows container disk.
       url: "docker://REGISTRY/REPO/IMAGE:TAG"
+      pullMethod: node

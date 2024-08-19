@@ -7,3 +7,4 @@ spec:
   source:
     registry:
       url: "docker://quay.io/nirsof/dr-demo:fedora-6"
+      pullMethod: node
